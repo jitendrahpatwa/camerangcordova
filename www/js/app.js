@@ -29,7 +29,7 @@ starter.controller("ExampleController", function($scope, $cordovaCamera) {
             quality : 75, 
             destinationType : Camera.DestinationType.DATA_URL, 
             sourceType : Camera.PictureSourceType.CAMERA, 
-            allowEdit : true,
+            allowEdit : false,
             encodingType: Camera.EncodingType.JPEG,
             targetWidth: 300,
             targetHeight: 300,
